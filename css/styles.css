@@ -1,3 +1,18 @@
-#result {
-/*  display: none;
+body {
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/19/93/cartoon-funny-robot-with-speech-bubble-vector-7011993.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+#resultZero {
+//  display: none;
+}
+#resultOne {
+// display: none;
+}
+#resultTwo {
+//  display: none;
+}
+#resultThree {
+//  display: none;
 }

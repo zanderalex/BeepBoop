@@ -9,8 +9,8 @@
 
 var mostNumbers = [0,4,5,6,7,8,9];
 
-var isNumber = function(userInputArray){
-  if (userInputArray >=0 || userInputArray <=0) {
+var isNumber = function(userInput){
+  if (userInput >=0 || userInput <=0) {
     return false;
   }
 

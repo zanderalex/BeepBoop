@@ -1,23 +1,33 @@
 // Business logic
-var allNumbers = [0,1,2,3,4,5,6,7,8,9];
+//var allNumbers = [0,1,2,3,4,5,6,7,8,9];
+//create loop which runs until it reaches the number inputted
+//add all those numbers to input number and create string
+//all numbers including 1 = BEEP
+//unless number includes 2 = BOOP
+//unless number includes 3 = I'm sorry...
 var mostNumbers = [0,4,5,6,7,8,9];
-var specialOne = "1"
-var specialTwo = "2"
-var specialThree = "3"
-var numberInput = function(number) {
-  if ((number === 3)
-  return ("I'm sorry, Dave. I'm afraid I can't do that."); {
-  else if (numberInput === 2) console.log("Boop!"); {
-  else if (numberInput === 1) console.log("Beep!"); {
+
+var isNumber = function(userInputArray){
+  if (userInputArray >=0 || userInputArray <=0) {
+    return false;
+  }
+
+var input = function(number) {
+  if (number.includes(3)
+  return #resultOne; {
+  } else if (input.includes(2) console.log("Boop!"); {
+  } else if (input.includes(1) console.log("Beep!"); {
   });
 });
 
 
+
+//User Interface Logic
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("input#number").val());
-    var result = numberInput(number);
+    var result = input(number);
     $("#result").text(result);
   });
 });

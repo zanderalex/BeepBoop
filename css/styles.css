@@ -4,3 +4,6 @@ body {
   background-attachment: fixed;
   background-size: auto;
 }
+#answerArea {
+  background-color: rgba(246, 99, 99, 0.514);
+}
